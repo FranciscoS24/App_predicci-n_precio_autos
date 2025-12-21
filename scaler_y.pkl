@@ -1,1 +1,0 @@
-joblib.dump(y_scaler, "scaler_y.pkl")
