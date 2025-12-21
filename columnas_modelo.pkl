@@ -1,1 +1,0 @@
-joblib.dump(X.columns.tolist(), "columnas_modelo.pkl")
