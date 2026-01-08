@@ -88,7 +88,7 @@ if st.button("Predecir precio"):
     # Predicción
     # ----------------------
     log_price_pred = modelo.predict(X_scaled)
-    precio = np.exp(log_price_pred)[0]
+    precio = float(np.exp(log_price_pred)[0][0])
 
 
     st.success(f"💰 Precio estimado: ${precio:,.2f}")
