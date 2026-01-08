@@ -8,7 +8,6 @@ import joblib
 # ======================
 modelo = joblib.load("modelo_autos.pkl")
 scaler_X = joblib.load("scaler_X.pkl")
-scaler_y = joblib.load("scaler_y.pkl")
 encoder = joblib.load("encoder.pkl")
 columnas_modelo = joblib.load("columnas_modelo.pkl")
 
